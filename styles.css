@@ -1,0 +1,237 @@
+/* if tag ang imo itry ug design imo ra isuwat ang name sa tag then curly braces,
+if it is a class, preceed it with a dot then curly braces
+lastly, if it is an id, preceed it with a hash sign */
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Noto Serif JP', serif;
+  /* Merriweather, serif */
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Great Vibes', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+  /* h1: Sacramento, cursive */
+}
+
+p {
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.0rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+  /* h2: Montserrat, sans-serif */
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border: dotted grey 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  padding: 10px;
+}
+
+img {
+  width: 150px;
+  height: auto;
+}
+
+.middle-container {
+  /* background-color:  #bad7df; */
+  /* width:100%; */
+  /* height: auto; */
+  padding-top: 100px;
+  padding-bottom: 0;
+  /* margin: 100px, 0; */
+}
+
+.top-container {
+  background-color: #c7ecee;
+  padding-top: 100px;
+  position: relative;
+  height: 100%;
+}
+
+.bottom-container {
+  background-color: #99ddcc;
+  width: 100%;
+  height: auto;
+  padding-top: 7px;
+  padding-bottom: 5px;
+}
+
+a:hover{
+  width: 200px;
+  height: auto;
+}
+
+.act {
+  text-decoration: underline;
+}
+
+/*.header-desc{
+     margin-top: 0;
+       font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}*/
+.credit {
+  position: absolute;
+  top: 50px;
+  right: 20%;
+  width: 80px;
+  height: auto;
+}
+
+.signaling {
+  width: 300px;
+  height: auto;
+}
+
+.stock {
+  position: absolute;
+  left: 20%;
+  bottom: 250px;
+  width: 80px;
+  height: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.billiard {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.modelling {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skills {
+  width: 100%;
+  /* height: 500px;
+
+   */
+}
+
+.copyright{
+  font-size: 0.75 rem;
+  padding: 20px 0;
+}
+
+.profpic {
+  padding-top: 20px;
+}
+
+.bottom-paragraph {
+  color: #EAF6F6;
+}
+
+.flaticon {
+  padding-top: 20px;
+}
+
+.btn {
+  padding-top: 15px;
+}
+
+.footer-link {
+  margin-top: 20px;
+  width: 50px;
+  height: auto;
+}
+
+.intro {
+  width: 32%;
+  margin: auto;
+}
+
+/* #modelling-div{
+  position: relative;
+  left: 295px;
+  bottom: 320px;
+  width: 500px;
+}
+
+#billiard-div{
+  position: relative;
+  right: 280px;
+  bottom: 60px;
+  width: 550px;
+} */
+.myskills {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.contact-me {
+  padding-bottom: 20px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 10px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #11999E 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #2BC4AD 1px;
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
